@@ -1,7 +1,9 @@
 body {
     box-sizing: border-box;
-    margin: 0%;
-    padding: 0%;
+    margin: 0;
+    padding: 0;
+    background: radial-gradient(circle,#ffffff, #1e3c72);
+    color: rgb(0, 0, 0);
 }
 
 .service-card {
@@ -15,4 +17,22 @@ body {
 .service-card image {
     max-width: 100px;
     margin-bottom: 10px;
+}
+
+footer {
+    text-align: center;
+    color: #ddd;
+}
+
+.footer-links {
+    color: #ddd;
+}
+
+.footer-links a {
+    margin: 0 10px;
+    color: #ddd;
+    text-decoration: none;
+}
+.footer-links a:hover {
+    text-decoration: underline;
 }
