@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tech Solutions</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/css_pages/index_stylesheet.css">
+</head>
+
+<body>
+    <header>
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">Tech Solutions</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#services">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Services -->
+        <div class="container mt-5" id="services">
+            <h2 class="text-center">Our Services</h2>
+            <div class="row">
+
+                <div class="col-md-4 col-sm-12">
+                    <div class="service-card">
+                        <!-- 1st Image >>>>>>>>>>>>>>>>>>>>>>>>>>>>        -->
+                        <img src="/img/Img_01.png" alt="Computer with gear" width="100"> 
+                        <h3>IT Consulting</h3>
+                        <p class="discription">Providing expert advice and strategies to help businesses optimize their IT infrastructure, improve efficiency, and reduce costs.</p>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-sm-12">
+                    <div class="service-card">
+                        <!-- 2nd Image >>>>>>>>>>>>>>>>>>>>>>>>>>>>        -->
+                        <img src="/img/Img_02.png" alt="Computer with shield" width="100">
+                        <h3>Cybersecurity Solutions</h3>
+                        <p>Offering comprehensive cybersecurity services including threat analysis, vulnerability assessments, and protection against cyber attacks.</p>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-sm-12">
+                    <div class="service-card">
+                        <!-- 3rd Image >>>>>>>>>>>>>>>>>>>>>>>>>>>>        -->
+                        <img src="/img/Img_03.png" alt="Computer with cloud" width="100">
+                        <h3>Cloud Services</h3>
+                        <p>Delivering cloud computing solutions such as cloud migration, cloud storage, and cloud management to enable businesses to scale and innovate quickly.</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- About Us Section with Sidebar -->
+        <div class="container mt-5" id="about">
+            <div class="row">
+                <div class="col-md-8 col-sm-12">
+                    <h2>About Us</h2>
+                    <p>
+                        Welcome to Tech Solutions, your trusted partner in innovative technology solutions. Founded in 2010, we
+                        have a decade of experience in delivering cutting-edge IT consulting, robust cybersecurity, and
+                        efficient cloud services to businesses of all sizes. Our mission is to empower companies to harness the
+                        full potential of technology, ensuring they stay ahead in a competitive market.
+                    </p>
+                    <p>
+                        At Tech Solutions, we believe in a client-centric approach, tailoring our services to meet the unique
+                        needs of each business we work with. Our team of highly skilled professionals is dedicated to providing
+                        exceptional service and support, ensuring your technology infrastructure is not only secure but also
+                        optimized for growth and efficiency.
+                    </p>
+                    <p>
+                        We pride ourselves on our commitment to innovation, integrity, and excellence. Whether you’re looking to
+                        safeguard your data, streamline your IT operations, or migrate to the cloud, Tech Solutions has the
+                        expertise and experience to help you achieve your goals.
+                    </p>
+                </div>
+
+                <div class="col-md-4 col-sm-12">
+                    <h3>Our Values</h3>
+                    <p>
+                        <strong>Innovation:</strong> We stay ahead of the curve by continuously exploring new technologies and
+                        solutions.
+                    </p>
+                    <p>
+                        <strong>Integrity:</strong> We uphold the highest standards of professionalism and ethics in everything
+                        we do.
+                    </p>
+                    <p>
+                        <strong>Excellence:</strong> We are committed to delivering exceptional results and exceeding our
+                        clients' expectations.
+                    </p>
+
+                    <h3>Contact Information</h3>
+                    <p><strong>Email:</strong> info@techsolutions.com</p>
+                    <p><strong>Phone:</strong> (661) 202-9461</p>
+                    <p><strong>Address:</strong> 123 Tech Solutions Blvd, Tech City, CA 90001</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Contact Form -->
+        <form action="" method="get">
+            <div class="container mt-5 mb-5" id="contact">
+                <h2 class="text-center">Contact Us</h2>
+                <form>
+
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" class="form-control" id="name" placeholder="Enter your name">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" class="form-control" id="email" placeholder="Enter your email">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="service">Service</label>
+                        <select class="form-control" id="service">
+                            <option>IT Consulting</option>
+                            <option>Cybersecurity Solutions</option>
+                            <option>Cloud Services</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea class="form-control" id="message" rows="4"></textarea>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+            </div>
+        </form>
+    </main>
+
+    <footer>
+    </footer>
+
+
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>
